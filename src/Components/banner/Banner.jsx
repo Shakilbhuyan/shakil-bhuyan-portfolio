@@ -20,7 +20,7 @@ const Banner = () => {
                     className='rounded-full'></Image>
                 <div className='lg:flex-grow'>
 
-                    <p>
+                    
                     <Typewriter
                             options={{
                                 strings: ['HI THERE,'],
@@ -28,10 +28,10 @@ const Banner = () => {
                                 loop: true,
                             }}
                         />
-                    </p>
+                    
                     <h1 className="text-5xl font-bold uppercase">I Am 
                     <span className='text-fuchsia-600'>shakil</span> bhuyan</h1>
-                    <p className="py-3 font-bold">
+                    <div className="py-3 font-bold">
                         <Typewriter
                             options={{
                                 strings: ['MERN Stack Web Developer'],
@@ -39,7 +39,7 @@ const Banner = () => {
                                 loop: true,
                             }}
                         />
-                    </p>
+                    </div>
                     <div className='flex mb-2'>
                         <a href="https://web.facebook.com/profile.php?id=100078262682056" className="text-blue-600 hover:text-white mx-2">
                             <FaFacebook></FaFacebook>
