@@ -51,7 +51,7 @@ const Banner = () => {
                             <FaGithub></FaGithub>
                         </a>
                     </div>
-                    <button className="btn bg-[#FF6133]" > <a  href="https://drive.google.com/file/d/1AuSxZTvsnsOBYV7V-Dr4E_heJbEAEIFD/view?usp=drive_link " >Download Resume</a></button>
+                    <button className="btn bg-[#FF6133]" > <a  href="https://drive.google.com/uc?export=download&id=1AuSxZTvsnsOBYV7V-Dr4E_heJbEAEIFD" >Download Resume</a></button>
                 </div>
             </div>
         </div>
@@ -59,3 +59,6 @@ const Banner = () => {
 };
 
 export default Banner;
+
+// https://drive.google.com/uc?export=download&id=18gUkV6RdkPdgVlFVKjt6TUoeVJ1F4Ycy
+// 1AuSxZTvsnsOBYV7V-Dr4E_heJbEAEIFD
