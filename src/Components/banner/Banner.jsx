@@ -20,17 +20,16 @@ const Banner = () => {
                     className='rounded-full'></Image>
                 <div className='lg:flex-grow'>
 
-                    
+
                     <Typewriter
-                            options={{
-                                strings: ['HI THERE,'],
-                                autoStart: true,
-                                loop: true,
-                            }}
-                        />
-                    
-                    <h1 className="text-5xl font-bold uppercase">I Am 
-                    <span className='text-fuchsia-600'>shakil</span> bhuyan</h1>
+                        options={{
+                            strings: ['HI THERE,'],
+                            autoStart: true,
+                            loop: true,
+                        }}
+                    />
+
+                    <h1 className="text-5xl font-bold uppercase">I Am  <span className='text-fuchsia-600'>shakil</span> bhuyan</h1>
                     <div className="py-3 font-bold">
                         <Typewriter
                             options={{
@@ -51,7 +50,7 @@ const Banner = () => {
                             <FaGithub></FaGithub>
                         </a>
                     </div>
-                    <button className="btn bg-[#FF6133]" > <a  href="https://drive.google.com/uc?export=download&id=1AuSxZTvsnsOBYV7V-Dr4E_heJbEAEIFD" >Download Resume</a></button>
+                    <button className="btn bg-[#FF6133]" > <a href="https://drive.google.com/uc?export=download&id=1AuSxZTvsnsOBYV7V-Dr4E_heJbEAEIFD" >Download Resume</a></button>
                 </div>
             </div>
         </div>

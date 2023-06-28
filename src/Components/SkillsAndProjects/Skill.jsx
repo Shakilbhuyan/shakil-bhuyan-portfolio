@@ -1,10 +1,10 @@
 import React from 'react';
 import Headline from '../heading/Headline';
 import Image from 'next/image';
-import reacticon from '../../../public/icons/react.png'
-import nodeicon from '../../../public/icons/nodejs.png'
-import expressicon from '../../../public/icons/express-js.png'
-import mongoicon from '../../../public/icons/mongo.png'
+import reacticon from '../../../public/react.png'
+import nodeicon from '../../../public/nodejs.png'
+import expressicon from '../../../public/express-js.png'
+import mongoicon from '../../../public/mongo.png'
 import Project from './Project';
 
 const Skill = () => {

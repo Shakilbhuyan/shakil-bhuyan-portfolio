@@ -1,9 +1,9 @@
 import React from 'react';
 import Headline from '../heading/Headline';
-import school from '../../../public/projecs/school.PNG'
+import school from '../../../public/school.jpg'
 import Image from 'next/image';
-import chef from '../../../public/projecs/recipe.PNG'
-import toy from '../../../public/projecs/warrior.PNG'
+import chef from '../../../public/recipe.jpg'
+import toy from '../../../public/warrior.jpg'
 
 const Project = () => {
     return (
