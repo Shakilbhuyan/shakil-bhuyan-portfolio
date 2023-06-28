@@ -1,12 +1,16 @@
+'use client'
 import React from 'react';
 import Image from 'next/image'
-import logo from '../../../public/porfolioLogo.jpg'
+import logo from '../../../public/porfolioLogo.jpg';
+import { Link } from 'react-scroll/modules'
 const Navber = () => {
     const navList = <>
           <li><a href="/">Home</a></li>
-          <li><a >About Me</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Projects</a></li>
+          <li><Link activeClass="active" to="test1" spy={true} smooth={true} offset={50} duration={500}>
+          About<span  className='text-red-600'>Me</span>
+        </Link></li>
+          <li><Link activeClass="active" to="page2" spy={true} smooth={true} offset={50} duration={500}>Skills & Projects</Link></li>
+          <li><Link activeClass="active" to="page3" spy={true} smooth={true} offset={50} duration={500}>Contact</Link></li>
     </>
     return (
         <div className="navbar bg-white fixed z-10 bg-opacity-30 max-w-screen-xl">
@@ -26,7 +30,7 @@ const Navber = () => {
       alt="Picture of the author"
       className='rounded-full'
     />
-    <a className="btn btn-ghost normal-case text-xl">SHAKIL</a>
+    <div className="btn btn-ghost normal-case text-xl"> <p>SH<span className='text-[#DD33FF]'>A</span>KI<span className='text-[#FF9633]'>L</span></p></div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -34,7 +38,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Download Resume</a>
+    <a className="btn bg-[#FF6133]">Hire Me</a>
   </div>
 </div>
     );
