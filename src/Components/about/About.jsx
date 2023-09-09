@@ -19,8 +19,7 @@ const About = () => {
                     <span className='font-bold mt-2'>Shakil Bhuyan</span><br />
                     <span className='font-bold'>sbhuiyan2956@gmail.com</span>
                 </div>
-                
-                    <div className="card  shadow-xl bg-orange-100 w-1/2 mx-auto my-4">
+                    <div className="card  shadow-xl bg-orange-100 lg:w-1/2 mx-auto my-4">
                         <div className="card-body">
                             <h2 className="card-title">University of Chittagong</h2>
                             <p>Bachelors of Business Administration <br />In Marketing <br /> 2021 - Present</p>

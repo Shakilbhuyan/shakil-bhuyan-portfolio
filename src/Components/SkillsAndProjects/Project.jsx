@@ -10,8 +10,8 @@ const Project = () => {
         <div>
             <Headline heading={"Projects"} subHeading={"Building Digital Solutions that Captivate and Convert"}></Headline>
             <div className='p-10 lg:flex gap-4 justify-center'>
-                <div className="card w-96 bg-orange-100 shadow-xl ">
-                   <Image src={school} height={500} width={500} alt='image'></Image>
+                <div className="card w-96 bg-orange-100 shadow-xl mb-8">
+                    <Image src={school} className='h-60' alt='image'></Image>
                     <div className="card-body">
                         <h2 className="card-title">LanguageLightHouse </h2>
                         <p>React | Tailwind | DaisyUI | Firebase | Express.js | MongoDB | JWT | Axios   Secure | Stripe  Payment System.</p>
@@ -27,8 +27,8 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-orange-100 shadow-xl">
-                   <Image src={chef} height={500} width={500} alt='image'></Image>
+                <div className="card w-96 bg-orange-100 mb-8 shadow-xl">
+                    <Image src={chef} className='h-60' alt='image'></Image>
                     <div className="card-body">
                         <h2 className="card-title">SavourChef </h2>
                         <p>React | Tailwind | DaisyUI | Firebase | Express.js | MongoDB </p>
@@ -44,12 +44,12 @@ const Project = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-orange-100 shadow-xl">
-                   <Image src={toy} height={500} width={500} alt='image'></Image>
+                <div className="card  w-96 mb-8 bg-orange-100 shadow-xl">
+                    <Image src={toy} className='h-60' alt='image'></Image>
                     <div className="card-body">
-                        <h2 className="card-title"> Star Warriors  </h2>
+                        <h2 className="card-title "> Star Warriors  </h2>
                         <p>React | Tailwind | DaisyUI | Firebase | Express.js | MongoDB </p>
-                        <ul>
+                        <ul >
                             <li>RESTful APIs</li>
                             <li>Logging and Error Handling</li>
                             <li>CRUD Operations</li>
