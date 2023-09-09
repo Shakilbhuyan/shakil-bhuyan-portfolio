@@ -18,9 +18,9 @@ const Contact = () => {
     e.preventDefault();
 
     // Replace with your EmailJS Service ID, Template ID, and User ID
-    const serviceId = 'service_7yh1mrq';
-    const templateId = 'template_r2aky5r';
-    const userId = '2NdCo1Uij_4zYdIG4';
+    const serviceId = import.meta.env.serviceId;
+    const templateId = import.meta.env.templateId;
+    const userId = import.meta.env.userId;
 
     emailjs.send(serviceId, templateId, formData, userId)
       .then((response) => {
